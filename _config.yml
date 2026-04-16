@@ -1,0 +1,44 @@
+title: "GitWing Blog"
+description: "Building native Git tools for macOS and exploring the future of developer productivity"
+author: "Irfan Code"
+email: "irfan@irfancode.com"
+url: "https://irfancode.github.io"
+baseurl: "/gitwing-blog"
+github_username: irfancode
+twitter_username: irfancode
+
+permalink: /:year/:title/
+
+future: true
+show_drafts: true
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - yarn.lock
+
+include:
+  - _pages
+
+collections:
+  posts:
+    output: true
+
+default_excerpt: "Read more..."
+
+sass:
+  style: compressed

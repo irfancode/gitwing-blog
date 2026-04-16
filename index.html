@@ -1,0 +1,86 @@
+---
+layout: default
+title: Home
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitWing Blog</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; background: #0d1117; color: #c9d1d9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 60px 0; border-bottom: 1px solid #30363d; margin-bottom: 40px; }
+        .logo { font-size: 48px; margin-bottom: 16px; }
+        h1 { font-size: 32px; color: #58a6ff; margin-bottom: 8px; }
+        .tagline { color: #8b949e; font-size: 18px; }
+        nav { display: flex; justify-content: center; gap: 24px; margin-top: 24px; }
+        nav a { color: #58a6ff; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+        .hero { background: linear-gradient(135deg, #1a1f2e 0%, #0d1117 100%); padding: 40px; border-radius: 12px; margin-bottom: 40px; border: 1px solid #30363d; }
+        .hero h2 { color: #58a6ff; margin-bottom: 16px; }
+        .hero p { color: #8b949e; margin-bottom: 20px; }
+        .btn { display: inline-block; background: #238636; color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; }
+        .btn:hover { background: #2ea043; }
+        .posts { margin-top: 40px; }
+        .posts h2 { color: #58a6ff; margin-bottom: 24px; }
+        .post { background: #161b22; padding: 24px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #30363d; }
+        .post-date { color: #8b949e; font-size: 14px; }
+        .post h3 { color: #c9d1d9; margin: 8px 0; }
+        .post h3 a { color: #58a6ff; text-decoration: none; }
+        .post h3 a:hover { text-decoration: underline; }
+        .post-excerpt { color: #8b949e; }
+        footer { text-align: center; padding: 40px 0; margin-top: 60px; border-top: 1px solid #30363d; color: #8b949e; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🦅</div>
+            <h1>GitWing Blog</h1>
+            <p class="tagline">Building native Git tools for macOS • M1 Productivity • 2026 Dev Tools</p>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/posts">Posts</a>
+                <a href="https://github.com/irfancode/gitwing">GitHub</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h2>Building the Future of Git on macOS</h2>
+            <p>Native SwiftUI apps, AI-powered workflows, and Apple Silicon optimization. This blog documents the journey of building GitWing and exploring what's next for developer productivity on Mac.</p>
+            <a href="https://github.com/irfancode/gitwing" class="btn">View on GitHub →</a>
+        </section>
+
+        <section class="posts">
+            <h2>Latest Posts</h2>
+            <article class="post">
+                <div class="post-date">April 16, 2026</div>
+                <h3><a href="/2026/04/16/introducing-gitwing.html">Introducing GitWing: Native Git for Apple Silicon</a></h3>
+                <p class="post-excerpt">A new native macOS Git tool built with SwiftUI that brings worktree management, AI commits, and blazing-fast performance to your workflow.</p>
+            </article>
+
+            <article class="post">
+                <div class="post-date">April 15, 2026</div>
+                <h3><a href="/2026/04/15/git-tools-2026.html">Git Tools in 2026: The Native Revolution</a></h3>
+                <p class="post-excerpt">Why Electron-based Git tools are dying and native SwiftUI apps are taking over on Apple Silicon Macs.</p>
+            </article>
+
+            <article class="post">
+                <div class="post-date">April 14, 2026</div>
+                <h3><a href="/2026/04/14/m1-productivity.html">M1 Productivity: Why Native Matters</a></h3>
+                <p class="post-excerpt">How Apple Silicon changes everything for Mac developers—and why your tools need to catch up.</p>
+            </article>
+        </section>
+
+        <footer>
+            <p>© 2026 GitWing • Built with SwiftUI for Apple Silicon</p>
+            <p>Open Source • MIT License</p>
+        </footer>
+    </div>
+</body>
+</html>
